@@ -1,3 +1,23 @@
+
+
+Steps::
+
+1 - Composer Install
+
+2- update .env file
+
+3- php artisan migrate
+
+4- php artisan db:seed 
+
+5- php artisan storage:link
+
+6- open postman collection for endpoints in post man => User can register,login , apply job ,list jobs,list all applications
+=>admin can crud jobs
+
+7- open backend for listing job applications : => localhost:8000/login -> admin@admin.com , 12345678
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
