@@ -1,0 +1,439 @@
+{
+	"id": "49098fbf-4067-4080-d016-9e4716697572",
+	"name": "Filey",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Job Applications",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"order": [
+				"2286e4ee-5777-e637-7235-e6a243090622",
+				"505d98f5-c04d-3707-1428-f494e0217704"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "6ab3b71a-bb7c-8b24-adcc-f3a586d6aaca"
+		},
+		{
+			"name": "Jobs",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"order": [
+				"5cb41eae-7ab1-a799-cdbb-b54aa4cf76dc",
+				"f5a4df65-d574-46e4-0771-f1e4d0736196",
+				"5286d058-cffa-4196-c479-8523835b6290",
+				"82bd28dc-1a86-074d-afcf-289c1ebad96a"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "f5e41546-d992-1199-f935-e59489edce1c"
+		},
+		{
+			"name": "User",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"order": [
+				"50276d9e-cc5d-58b1-34cd-2110fd093be5",
+				"ba1fd83f-d687-05b1-b21d-1d6958e4ddea"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "4f776c8b-b8e7-54c5-946f-bc65a032b65e"
+		}
+	],
+	"folders_order": [
+		"4f776c8b-b8e7-54c5-946f-bc65a032b65e",
+		"f5e41546-d992-1199-f935-e59489edce1c",
+		"6ab3b71a-bb7c-8b24-adcc-f3a586d6aaca"
+	],
+	"timestamp": 1606401503612,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2286e4ee-5777-e637-7235-e6a243090622",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjM5MzU3NywiZXhwIjoxNjA2Mzk3MTc3LCJuYmYiOjE2MDYzOTM1NzcsImp0aSI6IkRWdDFaam8xc1JadjNaUFAiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.s1EhKwce_vBmiw2n0VosqCSY0rEDuVbAIM41Zph416c\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjM5MzU3NywiZXhwIjoxNjA2Mzk3MTc3LCJuYmYiOjE2MDYzOTM1NzcsImp0aSI6IkRWdDFaam8xc1JadjNaUFAiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.s1EhKwce_vBmiw2n0VosqCSY0rEDuVbAIM41Zph416c",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/job-applications/create",
+			"folder": "6ab3b71a-bb7c-8b24-adcc-f3a586d6aaca",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606395080011,
+			"name": "Apply Job",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "8d37505f-ced6-b448-d898-24a93d42689a",
+			"rawModeData": "{\n\t\"job_id\":10,\n\t\"fullname\":\"ahmed mamdouh\",\n\t\"email\":\"amamdouh@kites.com\",\n\t\"age\":20,\n\t\"university\":\"helwan\",\n\t\"cv\":\"data:application/pdf;base64,JVBERi0xLjMNCiXi48/TDQoNCjEgMCBvYmoNCjw8DQovVHlwZSAvQ2F0YWxvZw0KL091dGxpbmVzIDIgMCBSDQovUGFnZXMgMyAwIFINCj4+DQplbmRvYmoNCg0KMiAwIG9iag0KPDwNCi9UeXBlIC9PdXRsaW5lcw0KL0NvdW50IDANCj4+DQplbmRvYmoNCg0KMyAwIG9iag0KPDwNCi9UeXBlIC9QYWdlcw0KL0NvdW50IDINCi9LaWRzIFsgNCAwIFIgNiAwIFIgXSANCj4+DQplbmRvYmoNCg0KNCAwIG9iag0KPDwNCi9UeXBlIC9QYWdlDQovUGFyZW50IDMgMCBSDQovUmVzb3VyY2VzIDw8DQovRm9udCA8PA0KL0YxIDkgMCBSIA0KPj4NCi9Qcm9jU2V0IDggMCBSDQo+Pg0KL01lZGlhQm94IFswIDAgNjEyLjAwMDAgNzkyLjAwMDBdDQovQ29udGVudHMgNSAwIFINCj4+DQplbmRvYmoNCg0KNSAwIG9iag0KPDwgL0xlbmd0aCAxMDc0ID4+DQpzdHJlYW0NCjIgSg0KQlQNCjAgMCAwIHJnDQovRjEgMDAyNyBUZg0KNTcuMzc1MCA3MjIuMjgwMCBUZA0KKCBBIFNpbXBsZSBQREYgRmlsZSApIFRqDQpFVA0KQlQNCi9GMSAwMDEwIFRmDQo2OS4yNTAwIDY4OC42MDgwIFRkDQooIFRoaXMgaXMgYSBzbWFsbCBkZW1vbnN0cmF0aW9uIC5wZGYgZmlsZSAtICkgVGoNCkVUDQpCVA0KL0YxIDAwMTAgVGYNCjY5LjI1MDAgNjY0LjcwNDAgVGQNCigganVzdCBmb3IgdXNlIGluIHRoZSBWaXJ0dWFsIE1lY2hhbmljcyB0dXRvcmlhbHMuIE1vcmUgdGV4dC4gQW5kIG1vcmUgKSBUag0KRVQNCkJUDQovRjEgMDAxMCBUZg0KNjkuMjUwMCA2NTIuNzUyMCBUZA0KKCB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiApIFRqDQpFVA0KQlQNCi9GMSAwMDEwIFRmDQo2OS4yNTAwIDYyOC44NDgwIFRkDQooIEFuZCBtb3JlIHRleHQuIEFuZCBtb3JlIHRleHQuIEFuZCBtb3JlIHRleHQuIEFuZCBtb3JlIHRleHQuIEFuZCBtb3JlICkgVGoNCkVUDQpCVA0KL0YxIDAwMTAgVGYNCjY5LjI1MDAgNjE2Ljg5NjAgVGQNCiggdGV4dC4gQW5kIG1vcmUgdGV4dC4gQm9yaW5nLCB6enp6ei4gQW5kIG1vcmUgdGV4dC4gQW5kIG1vcmUgdGV4dC4gQW5kICkgVGoNCkVUDQpCVA0KL0YxIDAwMTAgVGYNCjY5LjI1MDAgNjA0Ljk0NDAgVGQNCiggbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiApIFRqDQpFVA0KQlQNCi9GMSAwMDEwIFRmDQo2OS4yNTAwIDU5Mi45OTIwIFRkDQooIEFuZCBtb3JlIHRleHQuIEFuZCBtb3JlIHRleHQuICkgVGoNCkVUDQpCVA0KL0YxIDAwMTAgVGYNCjY5LjI1MDAgNTY5LjA4ODAgVGQNCiggQW5kIG1vcmUgdGV4dC4gQW5kIG1vcmUgdGV4dC4gQW5kIG1vcmUgdGV4dC4gQW5kIG1vcmUgdGV4dC4gQW5kIG1vcmUgKSBUag0KRVQNCkJUDQovRjEgMDAxMCBUZg0KNjkuMjUwMCA1NTcuMTM2MCBUZA0KKCB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBFdmVuIG1vcmUuIENvbnRpbnVlZCBvbiBwYWdlIDIgLi4uKSBUag0KRVQNCmVuZHN0cmVhbQ0KZW5kb2JqDQoNCjYgMCBvYmoNCjw8DQovVHlwZSAvUGFnZQ0KL1BhcmVudCAzIDAgUg0KL1Jlc291cmNlcyA8PA0KL0ZvbnQgPDwNCi9GMSA5IDAgUiANCj4+DQovUHJvY1NldCA4IDAgUg0KPj4NCi9NZWRpYUJveCBbMCAwIDYxMi4wMDAwIDc5Mi4wMDAwXQ0KL0NvbnRlbnRzIDcgMCBSDQo+Pg0KZW5kb2JqDQoNCjcgMCBvYmoNCjw8IC9MZW5ndGggNjc2ID4+DQpzdHJlYW0NCjIgSg0KQlQNCjAgMCAwIHJnDQovRjEgMDAyNyBUZg0KNTcuMzc1MCA3MjIuMjgwMCBUZA0KKCBTaW1wbGUgUERGIEZpbGUgMiApIFRqDQpFVA0KQlQNCi9GMSAwMDEwIFRmDQo2OS4yNTAwIDY4OC42MDgwIFRkDQooIC4uLmNvbnRpbnVlZCBmcm9tIHBhZ2UgMS4gWWV0IG1vcmUgdGV4dC4gQW5kIG1vcmUgdGV4dC4gQW5kIG1vcmUgdGV4dC4gKSBUag0KRVQNCkJUDQovRjEgMDAxMCBUZg0KNjkuMjUwMCA2NzYuNjU2MCBUZA0KKCBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSB0ZXh0LiBBbmQgbW9yZSApIFRqDQpFVA0KQlQNCi9GMSAwMDEwIFRmDQo2OS4yNTAwIDY2NC43MDQwIFRkDQooIHRleHQuIE9oLCBob3cgYm9yaW5nIHR5cGluZyB0aGlzIHN0dWZmLiBCdXQgbm90IGFzIGJvcmluZyBhcyB3YXRjaGluZyApIFRqDQpFVA0KQlQNCi9GMSAwMDEwIFRmDQo2OS4yNTAwIDY1Mi43NTIwIFRkDQooIHBhaW50IGRyeS4gQW5kIG1vcmUgdGV4dC4gQW5kIG1vcmUgdGV4dC4gQW5kIG1vcmUgdGV4dC4gQW5kIG1vcmUgdGV4dC4gKSBUag0KRVQNCkJUDQovRjEgMDAxMCBUZg0KNjkuMjUwMCA2NDAuODAwMCBUZA0KKCBCb3JpbmcuICBNb3JlLCBhIGxpdHRsZSBtb3JlIHRleHQuIFRoZSBlbmQsIGFuZCBqdXN0IGFzIHdlbGwuICkgVGoNCkVUDQplbmRzdHJlYW0NCmVuZG9iag0KDQo4IDAgb2JqDQpbL1BERiAvVGV4dF0NCmVuZG9iag0KDQo5IDAgb2JqDQo8PA0KL1R5cGUgL0ZvbnQNCi9TdWJ0eXBlIC9UeXBlMQ0KL05hbWUgL0YxDQovQmFzZUZvbnQgL0hlbHZldGljYQ0KL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcNCj4+DQplbmRvYmoNCg0KMTAgMCBvYmoNCjw8DQovQ3JlYXRvciAoUmF2ZSBcKGh0dHA6Ly93d3cubmV2cm9uYS5jb20vcmF2ZVwpKQ0KL1Byb2R1Y2VyIChOZXZyb25hIERlc2lnbnMpDQovQ3JlYXRpb25EYXRlIChEOjIwMDYwMzAxMDcyODI2KQ0KPj4NCmVuZG9iag0KDQp4cmVmDQowIDExDQowMDAwMDAwMDAwIDY1NTM1IGYNCjAwMDAwMDAwMTkgMDAwMDAgbg0KMDAwMDAwMDA5MyAwMDAwMCBuDQowMDAwMDAwMTQ3IDAwMDAwIG4NCjAwMDAwMDAyMjIgMDAwMDAgbg0KMDAwMDAwMDM5MCAwMDAwMCBuDQowMDAwMDAxNTIyIDAwMDAwIG4NCjAwMDAwMDE2OTAgMDAwMDAgbg0KMDAwMDAwMjQyMyAwMDAwMCBuDQowMDAwMDAyNDU2IDAwMDAwIG4NCjAwMDAwMDI1NzQgMDAwMDAgbg0KDQp0cmFpbGVyDQo8PA0KL1NpemUgMTENCi9Sb290IDEgMCBSDQovSW5mbyAxMCAwIFINCj4+DQoNCnN0YXJ0eHJlZg0KMjcxNA0KJSVFT0YNCg==\"\n}"
+		},
+		{
+			"id": "50276d9e-cc5d-58b1-34cd-2110fd093be5",
+			"headers": "//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvb3VyZWR1LnRlc3RlbnYudGVjaFwvYXBpXC92MVwvZW5cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjA0ODMyNzUwLCJleHAiOjE2MDc0MjQ3NTAsIm5iZiI6MTYwNDgzMjc1MCwianRpIjoiRlNuTEpBa2FnOHVPV05zMiIsInN1YiI6MzE5MTAsInBydiI6IjA1ZDljNzBiYTQzNDA2MmQ3ZTBmYTQwNDk3MjVmNjM4OWZlMWE4ZGUifQ.cPllQDpUkbiasYKpC0rVE3g5_WdOz4alzTqrVcJNpOo\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvb3VyZWR1LnRlc3RlbnYudGVjaFwvYXBpXC92MVwvZW5cL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjA0ODMyNzUwLCJleHAiOjE2MDc0MjQ3NTAsIm5iZiI6MTYwNDgzMjc1MCwianRpIjoiRlNuTEpBa2FnOHVPV05zMiIsInN1YiI6MzE5MTAsInBydiI6IjA1ZDljNzBiYTQzNDA2MmQ3ZTBmYTQwNDk3MjVmNjM4OWZlMWE4ZGUifQ.cPllQDpUkbiasYKpC0rVE3g5_WdOz4alzTqrVcJNpOo",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/register",
+			"folder": "4f776c8b-b8e7-54c5-946f-bc65a032b65e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606394926080,
+			"name": "Register",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "a1032459-e15c-1761-c49f-635ee8ac1019",
+			"rawModeData": "{\n\t\"name\":\"ahmed mamdouh\",\n\t\"password\":\"123456\",\n\t\"password_confirmation\":\"123456\",\n\t\"email\":\"amamdouh@kites.com\"\n}"
+		},
+		{
+			"id": "505d98f5-c04d-3707-1428-f494e0217704",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjM5MzU3NywiZXhwIjoxNjA2Mzk3MTc3LCJuYmYiOjE2MDYzOTM1NzcsImp0aSI6IkRWdDFaam8xc1JadjNaUFAiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.s1EhKwce_vBmiw2n0VosqCSY0rEDuVbAIM41Zph416c\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjM5MzU3NywiZXhwIjoxNjA2Mzk3MTc3LCJuYmYiOjE2MDYzOTM1NzcsImp0aSI6IkRWdDFaam8xc1JadjNaUFAiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.s1EhKwce_vBmiw2n0VosqCSY0rEDuVbAIM41Zph416c",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/job-applications/list?page=1&limit=5",
+			"folder": "6ab3b71a-bb7c-8b24-adcc-f3a586d6aaca",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606395562831,
+			"name": "List job applications",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\":\"First Job\",\n\t\"required_experience\":\"1 year\",\n\t\"job_requirements\":\"jobbb\",\n\t\"start_date\":\"30-12-2020\",\n\t\"end_date\":\"30-10-2021\",\n\t\"vacancies\":1\n}"
+		},
+		{
+			"id": "5286d058-cffa-4196-c479-8523835b6290",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMzMDI3NSwiZXhwIjoxNjA2MzMzODc1LCJuYmYiOjE2MDYzMzAyNzUsImp0aSI6IkZieTRjTjc0eVRxTVhvTUsiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.zms-bKY2IYoYGpigWzSHIOIeInQW2lNHPyO_6xBF66c\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMzMDI3NSwiZXhwIjoxNjA2MzMzODc1LCJuYmYiOjE2MDYzMzAyNzUsImp0aSI6IkZieTRjTjc0eVRxTVhvTUsiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.zms-bKY2IYoYGpigWzSHIOIeInQW2lNHPyO_6xBF66c",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/jobs/update/10",
+			"folder": "f5e41546-d992-1199-f935-e59489edce1c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606331623239,
+			"name": "Update Job",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\":\"First Job\",\n\t\"required_experience\":\"1 year\",\n\t\"job_requirements\":\"jobbb\",\n\t\"vacancies\":1\n}"
+		},
+		{
+			"id": "5cb41eae-7ab1-a799-cdbb-b54aa4cf76dc",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMzMDI3NSwiZXhwIjoxNjA2MzMzODc1LCJuYmYiOjE2MDYzMzAyNzUsImp0aSI6IkZieTRjTjc0eVRxTVhvTUsiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.zms-bKY2IYoYGpigWzSHIOIeInQW2lNHPyO_6xBF66c\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMzMDI3NSwiZXhwIjoxNjA2MzMzODc1LCJuYmYiOjE2MDYzMzAyNzUsImp0aSI6IkZieTRjTjc0eVRxTVhvTUsiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.zms-bKY2IYoYGpigWzSHIOIeInQW2lNHPyO_6xBF66c",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/jobs/create",
+			"folder": "f5e41546-d992-1199-f935-e59489edce1c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606331629152,
+			"name": "Job Create",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "299d5b04-779b-2b5f-01c3-8d14c73de16a",
+			"rawModeData": "{\n\t\"title\":\"First Job\",\n\t\"required_experience\":\"1 year\",\n\t\"job_requirements\":\"jobbb\",\n\t\"date_from\":\"2020-12-30\",\n\t\"date_to\":\"2021-10-30\",\n\t\"vacancies\":1\n}"
+		},
+		{
+			"id": "82bd28dc-1a86-074d-afcf-289c1ebad96a",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMzMDI3NSwiZXhwIjoxNjA2MzMzODc1LCJuYmYiOjE2MDYzMzAyNzUsImp0aSI6IkZieTRjTjc0eVRxTVhvTUsiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.zms-bKY2IYoYGpigWzSHIOIeInQW2lNHPyO_6xBF66c\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMzMDI3NSwiZXhwIjoxNjA2MzMzODc1LCJuYmYiOjE2MDYzMzAyNzUsImp0aSI6IkZieTRjTjc0eVRxTVhvTUsiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.zms-bKY2IYoYGpigWzSHIOIeInQW2lNHPyO_6xBF66c",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/jobs/11",
+			"folder": "f5e41546-d992-1199-f935-e59489edce1c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606331690690,
+			"name": "Delete Job",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\":\"First Job\",\n\t\"required_experience\":\"1 year\",\n\t\"job_requirements\":\"jobbb\",\n\t\"start_date\":\"30-12-2020\",\n\t\"end_date\":\"30-10-2021\",\n\t\"vacancies\":1\n}"
+		},
+		{
+			"id": "ba1fd83f-d687-05b1-b21d-1d6958e4ddea",
+			"headers": "Accept: application/jso\nContent-Type: application/json\n//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMyODQ0OSwiZXhwIjoxNjA2MzMyMDQ5LCJuYmYiOjE2MDYzMjg0NDksImp0aSI6IjNreWFmaXVJaXI1Y2J1aWUiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.lE5cmNflOiBCk9fnBcuHcMMlDCgD1E30lSZNLWf1SMc\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/jso",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMyODQ0OSwiZXhwIjoxNjA2MzMyMDQ5LCJuYmYiOjE2MDYzMjg0NDksImp0aSI6IjNreWFmaXVJaXI1Y2J1aWUiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.lE5cmNflOiBCk9fnBcuHcMMlDCgD1E30lSZNLWf1SMc",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "localhost:8000/api/login",
+			"folder": "4f776c8b-b8e7-54c5-946f-bc65a032b65e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606330247653,
+			"name": "Login",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "de7334c4-15af-347d-59b6-d1af55350c1d",
+			"rawModeData": "{\n\t\"email\":\"amamdouh@kites.com\",\n\t\"password\":\"123456\"\n}"
+		},
+		{
+			"id": "f5a4df65-d574-46e4-0771-f1e4d0736196",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMzMDI3NSwiZXhwIjoxNjA2MzMzODc1LCJuYmYiOjE2MDYzMzAyNzUsImp0aSI6IkZieTRjTjc0eVRxTVhvTUsiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.zms-bKY2IYoYGpigWzSHIOIeInQW2lNHPyO_6xBF66c\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYwNjMzMDI3NSwiZXhwIjoxNjA2MzMzODc1LCJuYmYiOjE2MDYzMzAyNzUsImp0aSI6IkZieTRjTjc0eVRxTVhvTUsiLCJzdWIiOjEwLCJwcnYiOiJjN2I3OGU1ZmZhN2NjOTI3YTdhOGQ0ZWJjOWM2NDQyZTgwZTU3MDAyIn0.zms-bKY2IYoYGpigWzSHIOIeInQW2lNHPyO_6xBF66c",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/jobs/list?page=1&limit=5",
+			"folder": "f5e41546-d992-1199-f935-e59489edce1c",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606331624968,
+			"name": "List Jobs",
+			"description": "",
+			"collectionId": "49098fbf-4067-4080-d016-9e4716697572",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "28ac3dbb-b204-536b-540d-d960cf8bde84",
+			"rawModeData": "{\n\t\"title\":\"First Job\",\n\t\"required_experience\":\"1 year\",\n\t\"job_requirements\":\"jobbb\",\n\t\"start_date\":\"30-12-2020\",\n\t\"end_date\":\"30-10-2021\",\n\t\"vacancies\":1\n}"
+		}
+	]
+}
